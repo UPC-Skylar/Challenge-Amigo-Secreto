@@ -77,6 +77,7 @@ body {
     width: 100%;
     max-width: 600px;
     margin-top: 20px;
+    margin-bottom: 5px;
 }
 
 .input-name {
@@ -159,4 +160,12 @@ ul {
 
 .button-draw:hover {
     background-color: var(--color-button-hover);
+}
+
+.notificaciones p {
+    font-size: 20px; 
+    font-weight: bold;
+    color: var(--color-primary);
+    text-align: center;
+    margin-bottom: 20px;
 }
